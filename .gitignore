@@ -4,7 +4,10 @@
 #  git config --global core.excludesfile ~/.gitignore_global
 
 # node_modules
-
+dist
+node_modules
+yarn-error.log
+.DS_Store
 
 # core dumps
 core
