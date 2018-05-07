@@ -1,5 +1,5 @@
 import $ from 'jquery';
-
+import './style.scss';
 // const $ = require('jquery');
 // $('#main').html('Here we go');
 let width = 0;
