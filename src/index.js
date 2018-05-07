@@ -1,1 +1,12 @@
-console.log('starting up!');
+import $ from 'jquery';
+
+// const $ = require('jquery');
+// $('#main').html('Here we go');
+let width = 0;
+
+setInterval(() => {
+  width += 1;
+  $('#main').html(`You've been on this page for ${width} seconds.`);
+}, 1000);
+
+// console.log('starting up!');
